@@ -1,0 +1,96 @@
+<! DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title> Example page </Title>
+      <link rel="stylesheet" href="page.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="cycle2.js"></script>
+	</head>
+	<body>
+
+	<div class="container">
+	
+	<header>
+	<div class="box-a">
+	<h1>Hansa Infosec</h1>
+	<p>Information Security</p>
+	</header>
+
+	<div class="content-area">
+	
+		<div class="main-area">
+	<h2>What is cycber security?</h2>
+		<p>Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. 
+It's also known as information technology security or electronic information security. 
+The term applies in a variety of contexts, from business to mobile computing, 
+and can be divided into a few common categories.</p>
+		</div>
+
+	
+	<div class="col col-sm-6">
+	<img src="wp2493115.jpg">
+	<img src="Don.jpg">
+	</div>
+		
+	
+	</div>
+
+	<div class="col col-sm-6">
+		<img src="images.png" class="key">
+		</div>
+		
+<aside class="sidebar">
+
+		<p>THis is the sidebarIndia Data Facts
+Not all clients want full service studies. A lot of clients look at just fieldwork and tabulated data. India Data Facts (IDF) is the answer to such requests.
+
+India Data Facts (IDF) is a data collection arm of Hansa Research. It is a focused vertical of Hansa Research for all your 'data collection only' requirements</p>
+
+		</aside>
+
+		<div class="fix"></div>
+	</div>
+
+<footer>
+
+<p>&copy; 2020- Designed By Vinothraj -Cyber forensic investigator
+</footer>
+
+		</div>
+	
+</body>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</html>
+ 

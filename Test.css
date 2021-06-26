@@ -1,0 +1,227 @@
+
+html{
+
+background-color: #472a25;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;      
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 3px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  transition-property: color, background-color;
+  transition-duration: 2s;
+}
+
+body{
+
+padding: 40px 40px;
+
+}
+*{
+box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 3px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.box-a {
+    
+	background-image: url(mrq-photo-wsb-free-trial-stnd.jpg);
+	background-color: black ;
+	bacckground-image: linear-gradient(to left, white);
+	background-position: left center;
+	background-size: 1300px 190px;
+	background-repeat: no-repeat;
+	padding: 50px;
+        border: 1px white;
+        border-radius: 5px;
+}
+
+h1 {
+    color: white;
+    text-align:left;
+   
+}
+
+h2{
+
+color: white;
+}
+
+p {
+color: white;
+text-align: left;
+padding: 0 20px;
+font-size: 100%;
+}
+
+a{
+text-decoration:  none;
+color: white;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+ padding-top: 10px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+.style{
+width: 80%;
+
+}
+form {
+background-color: #ECECEC;
+width:35%;
+box-sizing: border-box;
+padding: 20px 20px;
+border-radius: 3px;
+
+}
+
+input[type="FirstName"],
+input[type="LastName"],
+input[type="email"],
+input[type="text"],
+input[type="tel"], 
+input[type="textarea"]
+{
+width: 70%;
+display: block;
+box-sizing: border-box;
+padding: 0px 10px;
+height: 30px;
+}
+
+input[type="submit"]
+{
+display: block;
+box-sizing: border-box;
+padding: 0 10px;
+height: 30px;
+background-color:grey;
+border-radius: 3px;
+
+}
+
+
+footer{
+
+color:white;
+}
+
